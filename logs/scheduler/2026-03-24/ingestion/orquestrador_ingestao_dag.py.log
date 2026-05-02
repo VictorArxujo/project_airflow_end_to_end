@@ -1,0 +1,291 @@
+[2026-03-24T17:24:40.887+0000] {processor.py:161} INFO - Started process (PID=199) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:24:40.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:24:40.889+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:24:40.888+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:24:40.898+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:24:40.977+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:24:40.977+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:orquestrador_ingestao_data_bronze
+[2026-03-24T17:24:40.983+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:24:40.983+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:orquestrador_ingestao_data_bronze
+[2026-03-24T17:24:40.987+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:24:40.987+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:orquestrador_ingestao_data_bronze
+[2026-03-24T17:24:40.987+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:24:40.987+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:24:40.993+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:24:40.993+0000] {dag.py:3058} INFO - Creating ORM DAG for orquestrador_ingestao_data_bronze
+[2026-03-24T17:24:40.993+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:24:40.993+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:24:41.006+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.121 seconds
+[2026-03-24T17:25:11.799+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:25:11.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:25:11.800+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:25:11.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:25:11.807+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:25:11.820+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:25:11.820+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:25:11.827+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:25:11.827+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:25:11.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.039 seconds
+[2026-03-24T17:25:42.451+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:25:42.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:25:42.453+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:25:42.453+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:25:42.460+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:25:42.474+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:25:42.474+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:25:42.480+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:25:42.480+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:25:42.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.043 seconds
+[2026-03-24T17:26:13.095+0000] {processor.py:161} INFO - Started process (PID=314) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:26:13.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:26:13.096+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:26:13.096+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:26:13.104+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:26:13.119+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:26:13.119+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:26:13.127+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:26:13.126+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:26:13.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.044 seconds
+[2026-03-24T17:26:43.867+0000] {processor.py:161} INFO - Started process (PID=355) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:26:43.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:26:43.869+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:26:43.869+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:26:43.875+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:26:43.889+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:26:43.889+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:26:43.895+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:26:43.895+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:26:43.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.039 seconds
+[2026-03-24T17:27:14.569+0000] {processor.py:161} INFO - Started process (PID=392) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:27:14.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:27:14.570+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:27:14.570+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:27:14.578+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:27:14.595+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:27:14.595+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:27:14.603+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:27:14.603+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:27:14.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.047 seconds
+[2026-03-24T17:27:45.442+0000] {processor.py:161} INFO - Started process (PID=433) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:27:45.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:27:45.444+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:27:45.444+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:27:45.451+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:27:45.463+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:27:45.463+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:27:45.470+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:27:45.470+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:27:45.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.039 seconds
+[2026-03-24T17:28:16.265+0000] {processor.py:161} INFO - Started process (PID=472) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:28:16.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:28:16.265+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:28:16.265+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:28:16.272+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:28:16.286+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:28:16.286+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:28:16.293+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:28:16.293+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:28:16.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.040 seconds
+[2026-03-24T17:28:47.104+0000] {processor.py:161} INFO - Started process (PID=511) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:28:47.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:28:47.105+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:28:47.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:28:47.112+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:28:47.124+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:28:47.124+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:28:47.130+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:28:47.130+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:28:47.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.038 seconds
+[2026-03-24T17:29:17.922+0000] {processor.py:161} INFO - Started process (PID=550) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:29:17.923+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:29:17.923+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:29:17.923+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:29:17.932+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:29:17.947+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:29:17.947+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:29:17.954+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:29:17.954+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:29:17.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.045 seconds
+[2026-03-24T17:29:48.767+0000] {processor.py:161} INFO - Started process (PID=589) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:29:48.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:29:48.769+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:29:48.769+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:29:48.776+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:29:48.788+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:29:48.788+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:29:48.795+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:29:48.795+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:29:48.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.039 seconds
+[2026-03-24T17:30:19.632+0000] {processor.py:161} INFO - Started process (PID=628) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:30:19.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:30:19.632+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:30:19.632+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:30:19.638+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:30:19.650+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:30:19.650+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:30:19.656+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:30:19.656+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:30:19.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.036 seconds
+[2026-03-24T17:30:50.485+0000] {processor.py:161} INFO - Started process (PID=667) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:30:50.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:30:50.487+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:30:50.487+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:30:50.493+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:30:50.505+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:30:50.505+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:30:50.511+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:30:50.511+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:30:50.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.037 seconds
+[2026-03-24T17:31:21.348+0000] {processor.py:161} INFO - Started process (PID=706) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:31:21.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:31:21.349+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:31:21.349+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:31:21.355+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:31:21.367+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:31:21.367+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:31:21.373+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:31:21.373+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:31:21.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.039 seconds
+[2026-03-24T17:31:52.214+0000] {processor.py:161} INFO - Started process (PID=745) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:31:52.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:31:52.217+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:31:52.216+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:31:52.224+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:31:52.239+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:31:52.239+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:31:52.245+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:31:52.245+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:31:52.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.042 seconds
+[2026-03-24T17:32:23.073+0000] {processor.py:161} INFO - Started process (PID=784) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:32:23.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:32:23.074+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:32:23.073+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:32:23.080+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:32:23.093+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:32:23.093+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:32:23.099+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:32:23.099+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:32:23.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.038 seconds
+[2026-03-24T17:32:53.915+0000] {processor.py:161} INFO - Started process (PID=823) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:32:53.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:32:53.917+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:32:53.916+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:32:53.923+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:32:53.936+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:32:53.936+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:32:53.942+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:32:53.942+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:32:53.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.040 seconds
+[2026-03-24T17:33:24.755+0000] {processor.py:161} INFO - Started process (PID=862) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:33:24.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:33:24.756+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:33:24.755+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:33:24.762+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:33:24.774+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:33:24.774+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:33:24.781+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:33:24.781+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:33:24.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.036 seconds
+[2026-03-24T17:33:55.615+0000] {processor.py:161} INFO - Started process (PID=901) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:33:55.617+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:33:55.617+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:33:55.617+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:33:55.623+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:33:55.637+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:33:55.636+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:33:55.642+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:33:55.642+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:33:55.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.038 seconds
+[2026-03-24T17:34:26.455+0000] {processor.py:161} INFO - Started process (PID=940) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:34:26.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:34:26.456+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:34:26.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:34:26.462+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:34:26.477+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:34:26.476+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:34:26.483+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:34:26.483+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:34:26.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.041 seconds
+[2026-03-24T17:34:57.325+0000] {processor.py:161} INFO - Started process (PID=979) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:34:57.327+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:34:57.327+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:34:57.327+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:34:57.333+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:34:57.350+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:34:57.350+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:34:57.357+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:34:57.357+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:34:57.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.043 seconds
+[2026-03-24T17:35:28.178+0000] {processor.py:161} INFO - Started process (PID=1018) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:35:28.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:35:28.179+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:35:28.179+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:35:28.186+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:35:28.198+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:35:28.198+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:35:28.204+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:35:28.204+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:35:28.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.039 seconds
+[2026-03-24T17:35:59.028+0000] {processor.py:161} INFO - Started process (PID=1057) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:35:59.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:35:59.030+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:35:59.030+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:35:59.036+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:35:59.048+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:35:59.048+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:35:59.054+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:35:59.054+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:35:59.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.037 seconds
+[2026-03-24T17:36:29.857+0000] {processor.py:161} INFO - Started process (PID=1096) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:36:29.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:36:29.858+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:36:29.858+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:36:29.864+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:36:29.877+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:36:29.877+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:36:29.884+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:36:29.883+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:36:29.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.039 seconds
+[2026-03-24T17:37:00.701+0000] {processor.py:161} INFO - Started process (PID=1135) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:37:00.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:37:00.703+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:37:00.703+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:37:00.709+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:37:00.722+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:37:00.722+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:37:00.729+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:37:00.729+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:37:00.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.038 seconds
+[2026-03-24T17:37:31.525+0000] {processor.py:161} INFO - Started process (PID=1174) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:37:31.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:37:31.526+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:37:31.525+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:37:31.532+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:37:31.545+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:37:31.545+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:37:31.551+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:37:31.551+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:37:31.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.036 seconds
+[2026-03-24T17:38:02.348+0000] {processor.py:161} INFO - Started process (PID=1213) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:38:02.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:38:02.350+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:38:02.350+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:38:02.357+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:38:02.370+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:38:02.369+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:38:02.375+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:38:02.375+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:38:02.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.039 seconds
+[2026-03-24T17:38:33.172+0000] {processor.py:161} INFO - Started process (PID=1252) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:38:33.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:38:33.174+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:38:33.173+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:38:33.181+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:38:33.195+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:38:33.195+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:38:33.201+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:38:33.201+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:38:33.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.040 seconds
+[2026-03-24T17:39:04.044+0000] {processor.py:161} INFO - Started process (PID=1291) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:39:04.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:39:04.047+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:39:04.046+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:39:04.053+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:39:04.066+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:39:04.065+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:39:04.071+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:39:04.071+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:39:04.080+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.037 seconds
+[2026-03-24T17:39:34.894+0000] {processor.py:161} INFO - Started process (PID=1330) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:39:34.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:39:34.895+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:39:34.895+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:39:34.901+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:39:34.915+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:39:34.915+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:39:34.922+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:39:34.921+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:39:34.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.039 seconds
+[2026-03-24T17:40:05.751+0000] {processor.py:161} INFO - Started process (PID=1369) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:40:05.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:40:05.753+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:40:05.753+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:40:05.759+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:40:05.771+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:40:05.771+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:40:05.778+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:40:05.778+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:40:05.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.039 seconds
+[2026-03-24T17:40:36.612+0000] {processor.py:161} INFO - Started process (PID=1408) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:40:36.613+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:40:36.614+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:40:36.613+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:40:36.623+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:40:36.637+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:40:36.636+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:40:36.643+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:40:36.643+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:40:36.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.044 seconds
+[2026-03-24T17:41:07.407+0000] {processor.py:161} INFO - Started process (PID=1447) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:41:07.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:41:07.409+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:41:07.409+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:41:07.416+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:41:07.433+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:41:07.433+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:41:07.439+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:41:07.439+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:41:07.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.046 seconds
+[2026-03-24T17:41:38.248+0000] {processor.py:161} INFO - Started process (PID=1486) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:41:38.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:41:38.249+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:41:38.249+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:41:38.256+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:41:38.270+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:41:38.270+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:41:38.276+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:41:38.276+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:41:38.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.039 seconds
+[2026-03-24T17:42:09.092+0000] {processor.py:161} INFO - Started process (PID=1525) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:42:09.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:42:09.094+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:42:09.094+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:42:09.100+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:42:09.114+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:42:09.114+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:42:09.120+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:42:09.120+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:42:09.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.041 seconds
+[2026-03-24T17:42:39.931+0000] {processor.py:161} INFO - Started process (PID=1564) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:42:39.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:42:39.931+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:42:39.931+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:42:39.938+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:42:39.950+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:42:39.950+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:42:39.956+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:42:39.956+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:42:39.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.036 seconds
+[2026-03-24T17:43:10.768+0000] {processor.py:161} INFO - Started process (PID=1603) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:43:10.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:43:10.769+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:43:10.769+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:43:10.776+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:43:10.789+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:43:10.789+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:43:10.795+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:43:10.795+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:43:10.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.039 seconds
+[2026-03-24T17:43:41.527+0000] {processor.py:161} INFO - Started process (PID=1665) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:43:41.528+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:43:41.528+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:43:41.528+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:43:41.534+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:43:41.551+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:43:41.551+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:43:41.557+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:43:41.557+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:43:41.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.041 seconds
+[2026-03-24T17:44:12.362+0000] {processor.py:161} INFO - Started process (PID=1704) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:44:12.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:44:12.363+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:44:12.363+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:44:12.370+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:44:12.384+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:44:12.383+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:44:12.390+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:44:12.390+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:44:12.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.042 seconds
+[2026-03-24T17:44:43.178+0000] {processor.py:161} INFO - Started process (PID=1743) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:44:43.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:44:43.179+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:44:43.179+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:44:43.186+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:44:43.200+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:44:43.199+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:44:43.206+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:44:43.206+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:44:43.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.042 seconds
+[2026-03-24T17:45:14.018+0000] {processor.py:161} INFO - Started process (PID=1782) to work on /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:45:14.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py for tasks to queue
+[2026-03-24T17:45:14.020+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:45:14.020+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:45:14.028+0000] {processor.py:840} INFO - DAG(s) 'orquestrador_ingestao_data_bronze' retrieved from /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py
+[2026-03-24T17:45:14.042+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:45:14.042+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T17:45:14.048+0000] {logging_mixin.py:188} INFO - [2026-03-24T17:45:14.048+0000] {dag.py:3823} INFO - Setting next_dagrun for orquestrador_ingestao_data_bronze to None, run_after=None
+[2026-03-24T17:45:14.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion/orquestrador_ingestao_dag.py took 0.041 seconds
