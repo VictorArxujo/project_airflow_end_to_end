@@ -1,0 +1,21 @@
+# Airflow (instale separado via docker ou pip conforme seu setup)
+# apache-airflow==2.9.0
+
+# HTTP
+requests==2.32.3
+
+# Dados
+pandas
+pyarrow
+
+# Banco
+sqlalchemy==2.0.30
+psycopg2-binary==2.9.9
+
+# Settings / env
+pydantic==2.7.1
+pydantic-settings==2.3.1
+python-dotenv==1.0.1
+
+# Retry
+tenacity==8.3.0
