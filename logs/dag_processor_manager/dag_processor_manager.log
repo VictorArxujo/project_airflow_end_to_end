@@ -585,3 +585,498 @@ File Path                                                          PID  Runtime 
 /opt/airflow/dags/transformation/etl_deals_contacts_prata_db.py                           1           0  0.27s           2026-03-24T17:44:43
 /opt/airflow/dags/transformation/extract_data_bronze_to_parq.py                           1           0  0.28s           2026-03-24T17:44:43
 ================================================================================
+[2026-05-02T18:50:32.512+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-05-02T18:50:32.514+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-05-02T18:50:32.514+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-05-02T18:50:32.514+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-05-02T18:50:32.524+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2026-05-02T18:50:32.717+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/weather_current_dag.py   2029  0.07s             0           0
+/opt/airflow/dags/weather_dag.py           2026  0.10s             0           0
+================================================================================
+[2026-05-02T18:50:37.369+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2026-05-02T18:50:48.550+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-05-02T18:50:48.564+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-05-02T18:50:48.564+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-05-02T18:50:48.564+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-05-02T18:50:48.568+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2026-05-02T18:50:48.681+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/weather_current_dag.py    180  0.04s             0           0
+/opt/airflow/dags/weather_dag.py            177  0.05s             0           0
+================================================================================
+[2026-05-02T18:50:52.406+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2026-05-02T18:51:06.429+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-05-02T18:51:06.430+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-05-02T18:51:06.430+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-05-02T18:51:06.430+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-05-02T18:51:06.433+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2026-05-02T18:51:06.524+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/weather_current_dag.py    181  0.03s             0           0
+/opt/airflow/dags/weather_dag.py            178  0.04s             0           0
+================================================================================
+[2026-05-02T18:51:38.612+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           0           1  0.68s           2026-05-02T18:51:38
+/opt/airflow/dags/weather_dag.py            190  0.70s             1           0  0.50s           2026-05-02T18:51:06
+================================================================================
+[2026-05-02T18:52:10.675+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_dag.py                                   1           0  0.60s           2026-05-02T18:52:09
+/opt/airflow/dags/weather_current_dag.py                           0           1  0.45s           2026-05-02T18:52:09
+================================================================================
+[2026-05-02T18:52:43.290+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_dag.py                                   1           0  0.56s           2026-05-02T18:52:40
+/opt/airflow/dags/weather_current_dag.py                           0           1  0.52s           2026-05-02T18:52:40
+================================================================================
+[2026-05-02T18:53:16.032+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_dag.py                                   1           0  1.75s           2026-05-02T18:53:12
+/opt/airflow/dags/weather_current_dag.py                           0           1  1.72s           2026-05-02T18:53:12
+================================================================================
+[2026-05-02T18:53:48.715+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_dag.py                                   1           0  1.51s           2026-05-02T18:53:43
+/opt/airflow/dags/weather_current_dag.py                           0           1  1.47s           2026-05-02T18:53:43
+================================================================================
+[2026-05-02T18:54:21.425+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.81s           2026-05-02T18:54:16
+/opt/airflow/dags/weather_dag.py                                   1           0  0.71s           2026-05-02T18:54:16
+================================================================================
+[2026-05-02T18:54:54.057+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.70s           2026-05-02T18:54:48
+/opt/airflow/dags/weather_dag.py                                   1           0  0.61s           2026-05-02T18:54:48
+================================================================================
+[2026-05-02T18:55:26.536+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.43s           2026-05-02T18:55:19
+/opt/airflow/dags/weather_dag.py                                   1           0  0.42s           2026-05-02T18:55:19
+================================================================================
+[2026-05-02T18:55:58.564+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_dag.py                                   1           0  0.62s           2026-05-02T18:55:52
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.61s           2026-05-02T18:55:52
+================================================================================
+[2026-05-02T18:56:06.606+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-05-02T18:56:06.619+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2026-05-02T18:56:30.670+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_dag.py                                   1           0  0.54s           2026-05-02T18:56:23
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.53s           2026-05-02T18:56:23
+================================================================================
+[2026-05-02T18:57:02.748+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  1.07s           2026-05-02T18:56:55
+/opt/airflow/dags/weather_dag.py                                   1           0  1.02s           2026-05-02T18:56:55
+================================================================================
+[2026-05-02T18:57:35.469+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.68s           2026-05-02T18:57:27
+/opt/airflow/dags/weather_dag.py                                   1           0  0.66s           2026-05-02T18:57:27
+================================================================================
+[2026-05-02T18:58:07.942+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.49s           2026-05-02T18:57:58
+/opt/airflow/dags/weather_dag.py                                   1           0  0.47s           2026-05-02T18:57:58
+================================================================================
+[2026-05-02T18:58:40.680+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.73s           2026-05-02T18:58:31
+/opt/airflow/dags/weather_dag.py                                   1           0  0.73s           2026-05-02T18:58:31
+================================================================================
+[2026-05-02T18:59:12.677+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.90s           2026-05-02T18:59:03
+/opt/airflow/dags/weather_dag.py                                   0           1  0.18s           2026-05-02T18:59:02
+================================================================================
+[2026-05-02T18:59:45.124+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.52s           2026-05-02T18:59:34
+/opt/airflow/dags/weather_dag.py                                   0           1  0.11s           2026-05-02T18:59:34
+================================================================================
+[2026-05-02T19:00:17.196+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.42s           2026-05-02T19:00:06
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:00:06
+================================================================================
+[2026-05-02T19:00:49.128+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  1.55s           2026-05-02T19:00:38
+/opt/airflow/dags/weather_dag.py                                   0           1  0.06s           2026-05-02T19:00:36
+================================================================================
+[2026-05-02T19:01:06.697+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-05-02T19:01:06.709+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2026-05-02T19:01:21.091+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.40s           2026-05-02T19:01:10
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:01:06
+================================================================================
+[2026-05-02T19:01:53.211+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.39s           2026-05-02T19:01:42
+/opt/airflow/dags/weather_dag.py                                   0           1  0.06s           2026-05-02T19:01:36
+================================================================================
+[2026-05-02T19:02:25.326+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.40s           2026-05-02T19:02:14
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:02:07
+================================================================================
+[2026-05-02T19:02:57.465+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.47s           2026-05-02T19:02:46
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:02:37
+================================================================================
+[2026-05-02T19:03:29.596+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.61s           2026-05-02T19:03:18
+/opt/airflow/dags/weather_dag.py                                   0           1  0.09s           2026-05-02T19:03:07
+================================================================================
+[2026-05-02T19:04:01.730+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.53s           2026-05-02T19:03:50
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:03:37
+================================================================================
+[2026-05-02T19:04:33.861+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.49s           2026-05-02T19:04:21
+/opt/airflow/dags/weather_dag.py                                   0           1  0.12s           2026-05-02T19:04:07
+================================================================================
+[2026-05-02T19:05:05.938+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.62s           2026-05-02T19:04:53
+/opt/airflow/dags/weather_dag.py                                   0           1  0.08s           2026-05-02T19:04:38
+================================================================================
+[2026-05-02T19:05:38.027+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.43s           2026-05-02T19:05:25
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:05:09
+================================================================================
+[2026-05-02T19:06:07.149+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-05-02T19:06:07.164+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2026-05-02T19:06:10.218+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.39s           2026-05-02T19:05:57
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:06:09
+================================================================================
+[2026-05-02T19:06:42.705+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.44s           2026-05-02T19:06:29
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:06:39
+================================================================================
+[2026-05-02T19:07:15.176+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.47s           2026-05-02T19:07:01
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:07:10
+================================================================================
+[2026-05-02T19:07:47.574+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.37s           2026-05-02T19:07:32
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:07:40
+================================================================================
+[2026-05-02T19:08:20.193+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.61s           2026-05-02T19:08:05
+/opt/airflow/dags/weather_dag.py                                   0           1  0.10s           2026-05-02T19:08:11
+================================================================================
+[2026-05-02T19:08:52.293+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.97s           2026-05-02T19:08:37
+/opt/airflow/dags/weather_dag.py                                   0           1  0.09s           2026-05-02T19:08:41
+================================================================================
+[2026-05-02T19:09:24.730+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.44s           2026-05-02T19:09:08
+/opt/airflow/dags/weather_dag.py                                   0           1  0.15s           2026-05-02T19:09:11
+================================================================================
+[2026-05-02T19:09:57.290+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.55s           2026-05-02T19:09:40
+/opt/airflow/dags/weather_dag.py                                   0           1  0.08s           2026-05-02T19:09:42
+================================================================================
+[2026-05-02T19:10:29.429+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  1.42s           2026-05-02T19:10:11
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:10:12
+================================================================================
+[2026-05-02T19:11:01.545+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.51s           2026-05-02T19:10:43
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:10:43
+================================================================================
+[2026-05-02T19:11:07.590+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-05-02T19:11:07.593+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2026-05-02T19:11:33.679+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.43s           2026-05-02T19:11:15
+/opt/airflow/dags/weather_dag.py                                   0           1  0.09s           2026-05-02T19:11:15
+================================================================================
+[2026-05-02T19:12:05.861+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  1.77s           2026-05-02T19:11:47
+/opt/airflow/dags/weather_dag.py                                   0           1  0.08s           2026-05-02T19:11:45
+================================================================================
+[2026-05-02T19:12:38.036+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.53s           2026-05-02T19:12:19
+/opt/airflow/dags/weather_dag.py                                   0           1  0.14s           2026-05-02T19:12:16
+================================================================================
+[2026-05-02T19:13:10.206+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.43s           2026-05-02T19:12:52
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:12:46
+================================================================================
+[2026-05-02T19:13:42.268+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.44s           2026-05-02T19:13:23
+/opt/airflow/dags/weather_dag.py                                   0           1  0.06s           2026-05-02T19:13:16
+================================================================================
+[2026-05-02T19:14:14.354+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           0           1  0.33s           2026-05-02T19:13:55
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:13:47
+================================================================================
+[2026-05-02T19:14:46.466+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           0           1  0.42s           2026-05-02T19:14:27
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:14:17
+================================================================================
+[2026-05-02T19:15:18.686+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           0           1  0.46s           2026-05-02T19:14:58
+/opt/airflow/dags/weather_dag.py                                   0           1  0.06s           2026-05-02T19:15:17
+================================================================================
+[2026-05-02T19:15:51.102+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           0           1  0.43s           2026-05-02T19:15:30
+/opt/airflow/dags/weather_dag.py                                   0           1  0.13s           2026-05-02T19:15:48
+================================================================================
+[2026-05-02T19:16:08.140+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-05-02T19:16:08.143+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2026-05-02T19:16:23.249+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           0           1  1.38s           2026-05-02T19:16:02
+/opt/airflow/dags/weather_dag.py                                   0           1  0.08s           2026-05-02T19:16:18
+================================================================================
+[2026-05-02T19:16:55.391+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.53s           2026-05-02T19:16:34
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:16:48
+================================================================================
+[2026-05-02T19:17:27.492+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/weather_current_dag.py                           1           0  0.44s           2026-05-02T19:17:06
+/opt/airflow/dags/weather_dag.py                                   0           1  0.07s           2026-05-02T19:17:18
+================================================================================

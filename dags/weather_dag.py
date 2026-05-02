@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-from airflow.sdk import dag, task
+from airflow.decorators import dag, task
 from pathlib import Path
 import sys
 import os

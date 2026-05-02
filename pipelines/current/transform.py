@@ -63,7 +63,8 @@ def transform_current(city: str, collected_at: datetime) -> pd.DataFrame:
     }
 
     df = pd.DataFrame([record])
-
+    print(df.head())  # debug rápido para verificar o DataFrame antes de retornar
+    
     logger.info(f"[current/transform] Concluído — {len(df)} linha(s) para {city}")
     return df
 
