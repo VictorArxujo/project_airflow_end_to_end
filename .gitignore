@@ -1,4 +1,7 @@
 .env
+.env.docker
 __pycache__
 dags/__pycache__
 logs
+config/.env
+config/.env.docker

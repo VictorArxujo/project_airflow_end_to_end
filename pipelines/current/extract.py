@@ -14,7 +14,7 @@ def extract_current(city: str) -> datetime:
     o JSON bruto no data lake local.
 
     Args:
-        city: nome da cidade (ex: "São Paulo")
+        city: nome da cidade (ex: "Londrina")
 
     Returns:
         collected_at: datetime da coleta — passado para o transform saber

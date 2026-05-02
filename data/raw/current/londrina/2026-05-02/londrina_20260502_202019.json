@@ -1,0 +1,46 @@
+{
+  "coord": {
+    "lon": -51.1628,
+    "lat": -23.3103
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "nublado",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 20.81,
+    "feels_like": 20.85,
+    "temp_min": 20.81,
+    "temp_max": 20.81,
+    "pressure": 1014,
+    "humidity": 73,
+    "sea_level": 1014,
+    "grnd_level": 957
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 6.17,
+    "deg": 170,
+    "gust": 12.35
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1777753036,
+  "sys": {
+    "type": 1,
+    "id": 8399,
+    "country": "BR",
+    "sunrise": 1777715103,
+    "sunset": 1777755484
+  },
+  "timezone": -10800,
+  "id": 3458449,
+  "name": "Londrina",
+  "cod": 200
+}

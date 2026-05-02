@@ -5,7 +5,7 @@ x-airflow-common:
   image: apache/airflow:2.9.0-python3.11
   user: "50000:0"
   env_file:
-    - .env
+    - config/.env.docker
   environment:
     &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: LocalExecutor
@@ -19,7 +19,6 @@ x-airflow-common:
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
-    - ./src:/opt/airflow/src
     - ./.env:/opt/airflow/.env
     # --- ADICIONE ESTAS 3 LINHAS ABAIXO ---
     - ./pipelines:/opt/airflow/pipelines

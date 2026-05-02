@@ -7,7 +7,7 @@ import os
 
 logger = logging.getLogger(__name__)
 
-def extract_forecast(city: str = "São Paulo") -> str:
+def extract_forecast(city: str = "Londrina") -> str:
     api_key = os.getenv("API_KEY")
     url = "https://api.openweathermap.org/data/2.5/forecast"
     params = {"q": f"{city},BR", "units": "metric", "lang": "pt_br", "appid": api_key}

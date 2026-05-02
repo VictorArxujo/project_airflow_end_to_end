@@ -22,12 +22,12 @@ def weather_forecast_etl():
     @task()
     def extrair():
         from pipelines.forecast.extract import extract_forecast
-        return extract_forecast(city="São Paulo")  # retorna collected_at (string/datetime)
+        return extract_forecast(city="Londrina")  # retorna collected_at (string/datetime)
 
     @task()
     def transformar(collected_at):
         from pipelines.forecast.transform import transform_forecast
-        df = transform_forecast(city="São Paulo", collected_at=collected_at)
+        df = transform_forecast(city="Londrina", collected_at=collected_at)
         return df.to_dict(orient="records")  # ✅ converte para lista de dicts
 
     @task()

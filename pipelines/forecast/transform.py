@@ -6,7 +6,7 @@ from datetime import datetime
 
 logger = logging.getLogger(__name__)
 
-def transform_forecast(city: str = "São Paulo", collected_at: str = None) -> pd.DataFrame:
+def transform_forecast(city: str = "Londrina", collected_at: str = None) -> pd.DataFrame:
     city_slug = city.lower().replace(" ", "_")
     date_str = datetime.now().strftime("%Y-%m-%d")
     path = sorted(Path(f"data/raw/forecast/{city_slug}/{date_str}").glob("*.json"))[-1]

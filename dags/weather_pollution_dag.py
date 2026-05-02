@@ -23,12 +23,12 @@ def weather_pollution_etl():
     @task()
     def extrair():
         from pipelines.pollution.extract import extract_pollution
-        return extract_pollution(city="São Paulo")
+        return extract_pollution(city="Londrina")
 
     @task()
     def transformar(collected_at):
         from pipelines.pollution.transform import transform_pollution
-        return transform_pollution(city="São Paulo", collected_at=collected_at)
+        return transform_pollution(city="Londrina", collected_at=collected_at)
 
     @task()
     def carregar(df):
