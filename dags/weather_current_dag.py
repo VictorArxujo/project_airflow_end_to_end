@@ -15,13 +15,13 @@ default_args = {
     start_date=datetime(2024, 5, 1),
     catchup=False,
     tags=['weather', 'current'],
-    params={"city": "Londrina"},  # ✅ default aqui
+    params={"city": "Londrina"},
 )
 def weather_current_etl():
-
+    
     @task()
     def extrair(**context):
-        city = context["params"]["city"]  # ✅ pega o param
+        city = context["params"]["city"]
         from pipelines.current.extract import extract_current
         return extract_current(city=city)
 
@@ -29,15 +29,17 @@ def weather_current_etl():
     def transformar(collected_at, **context):
         city = context["params"]["city"]
         from pipelines.current.transform import transform_current
-        df = transform_current(city=city, collected_at=collected_at)
-        return df.to_dict(orient="records")
+        
+        # Agora a função já retorna a lista pronta, não precisa de .to_dict()
+        records = transform_current(city=city, collected_at=collected_at)
+        return records
 
     @task()
     def carregar(records):
-        import pandas as pd
         from pipelines.current.load import load_current
-        df = pd.DataFrame(records)
-        return load_current(df=df)
+        
+        # O load_current agora aceita a lista diretamente! Sem Pandas.
+        return load_current(records=records)
 
     tempo_coleta = extrair()
     dados = transformar(tempo_coleta)

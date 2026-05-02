@@ -1,4 +1,3 @@
-import pandas as pd
 import logging
 from sqlalchemy import text
 from core.db import get_engine
@@ -6,9 +5,9 @@ from core.db import get_engine
 logger = logging.getLogger(__name__)
 
 
-def load_current(df: pd.DataFrame) -> int:
-    if df.empty:
-        logger.warning("[current/load] DataFrame vazio, nada para inserir.")
+def load_current(records: list) -> int:
+    if not records:
+        logger.warning("[current/load] Lista vazia, nada para inserir.")
         return 0
 
     engine = get_engine()
@@ -36,10 +35,9 @@ def load_current(df: pd.DataFrame) -> int:
             )
         """))
 
-    # Insere ignorando duplicatas
-    records = df.to_dict(orient="records")
     inserted = 0
 
+    # Insere iterando direto sobre a lista que veio do Transform
     with engine.begin() as conn:
         for record in records:
             result = conn.execute(text("""
