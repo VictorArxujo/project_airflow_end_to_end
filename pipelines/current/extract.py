@@ -1,6 +1,6 @@
 import requests
 import logging
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 from core.settings import settings
 from core.lake import save_raw
@@ -36,7 +36,7 @@ def extract_current(city: str) -> datetime:
     response.raise_for_status()  # lança exceção se status != 200
 
     data = response.json()
-    collected_at = datetime.now(timezone.utc)
+    collected_at = datetime.now(timezone(timedelta(hours=-3))).isoformat()
 
     save_raw(domain="current", city=city, data=data, collected_at=collected_at)
 

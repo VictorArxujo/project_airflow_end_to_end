@@ -1,6 +1,6 @@
 import requests
 import logging
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import json
 import os
@@ -16,11 +16,12 @@ def extract_forecast(city: str = "Londrina") -> str:
     response.raise_for_status()
     data = response.json()
 
-    collected_at = datetime.now(timezone.utc).isoformat()
+    agora = datetime.now(timezone(timedelta(hours=-3)))
+    collected_at = agora.isoformat()
 
     city_slug = city.lower().replace(" ", "_")
-    date_str = datetime.now().strftime("%Y-%m-%d")
-    time_str = datetime.now().strftime("%Y%m%d_%H%M%S")
+    date_str = agora.strftime("%Y-%m-%d")
+    time_str = agora.strftime("%Y%m%d_%H%M%S")
     path = Path(f"data/raw/forecast/{city_slug}/{date_str}")
     path.mkdir(parents=True, exist_ok=True)
 

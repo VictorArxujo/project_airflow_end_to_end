@@ -38,4 +38,5 @@ def transform_pollution(city: str = "Londrina", collected_at: str = None) -> pd.
     }])
 
     logger.info(f"[pollution/transform] {len(df)} linha(s) gerada(s)")
+    print(df.head())
     return df

@@ -1,6 +1,6 @@
 import requests
 import logging
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import json
 import os
@@ -31,13 +31,13 @@ def extract_pollution(city: str = "Londrina") -> str:
     data["_city_name"] = city
     data["_lat"] = lat
     data["_lon"] = lon
-
-    collected_at = datetime.now(timezone.utc).isoformat()
+    agora = datetime.now(timezone(timedelta(hours=-3)))
+    collected_at = agora.isoformat()
     data["_collected_at"] = collected_at
 
     city_slug = city.lower().replace(" ", "_")
-    date_str = datetime.now().strftime("%Y-%m-%d")
-    time_str = datetime.now().strftime("%Y%m%d_%H%M%S")
+    date_str = agora.strftime("%Y-%m-%d")
+    time_str = agora.strftime("%Y%m%d_%H%M%S")
     path = Path(f"data/raw/pollution/{city_slug}/{date_str}")
     path.mkdir(parents=True, exist_ok=True)
 
