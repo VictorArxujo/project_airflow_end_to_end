@@ -1,33 +1,78 @@
 from pipelines.current.extract import extract_current
 from pipelines.current.transform import transform_current
 from pipelines.current.load import load_current
+from pipelines.forecast.extract import extract_forecast
+from pipelines.forecast.transform import transform_forecast
+from pipelines.forecast.load import load_forecast
+from pipelines.pollution.extract import extract_pollution
+from pipelines.pollution.transform import transform_pollution
+from pipelines.pollution.load import load_pollution
+
 import logging
 from pathlib import Path
 from dotenv import load_dotenv
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+load_dotenv(Path(__file__).resolve().parent / 'config' / '.env')
 
-env_path = Path(__file__).resolve().parent / 'config' / '.env'
-load_dotenv(env_path)
+CIDADES_DISPONIVEIS = ["São Paulo", "Rio de Janeiro", "Belo Horizonte", "Curitiba", "Brasília", "Londrina"]
 
-def pipeline():
+def escolher_cidade():
+    print("\n=== Cidades disponíveis ===")
+    for i, cidade in enumerate(CIDADES_DISPONIVEIS, 1):
+        print(f"  {i}. {cidade}")
+    print("  0. Digitar outra cidade")
+
+    escolha = input("\nEscolha o número da cidade: ").strip()
+
+    if escolha == "0":
+        return input("Digite o nome da cidade: ").strip()
+    
     try:
-        logging.info("ETAPA 1: EXTRACT")
-        collected_at = extract_current(city="São Paulo")
+        return CIDADES_DISPONIVEIS[int(escolha) - 1]
+    except (ValueError, IndexError):
+        print("Opção inválida, usando Londrina.")
+        return "Londrina"
 
-        logging.info("ETAPA 2: TRANSFORM")
-        df = transform_current(city="São Paulo", collected_at=collected_at)
+def escolher_pipeline():
+    print("\n=== Pipelines disponíveis ===")
+    print("  1. Tempo atual (current)")
+    print("  2. Previsão (forecast)")
+    print("  3. Poluição (pollution)")
+    print("  4. Todos")
 
-        logging.info("ETAPA 3: LOAD")
-        load_current(df=df)
+    escolha = input("\nEscolha o pipeline: ").strip()
+    return escolha
 
-        print("\n" + "="*60)
-        print("✅ Pipeline concluído com sucesso!")
-        print("="*60)
+def pipeline(city: str, tipo: str):
+    try:
+        if tipo in ("1", "4"):
+            logging.info(f"[current] Rodando para {city}")
+            collected_at = extract_current(city=city)
+            df = transform_current(city=city, collected_at=collected_at)
+            load_current(df=df)
+            print(f"✅ Current concluído para {city}")
+
+        if tipo in ("2", "4"):
+            logging.info(f"[forecast] Rodando para {city}")
+            collected_at = extract_forecast(city=city)
+            df = transform_forecast(city=city, collected_at=collected_at)
+            load_forecast(df=df)
+            print(f"✅ Forecast concluído para {city}")
+
+        if tipo in ("3", "4"):
+            logging.info(f"[pollution] Rodando para {city}")
+            collected_at = extract_pollution(city=city)
+            df = transform_pollution(city=city, collected_at=collected_at)
+            load_pollution(df=df)
+            print(f"✅ Pollution concluído para {city}")
 
     except Exception as e:
-        logging.error(f"❌ ERRO no Pipeline: {e}")
+        logging.error(f"❌ ERRO: {e}")
         import traceback
         traceback.print_exc()
 
-pipeline()
+if __name__ == "__main__":
+    city = escolher_cidade()
+    tipo = escolher_pipeline()
+    pipeline(city=city, tipo=tipo)

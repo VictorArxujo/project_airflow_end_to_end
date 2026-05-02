@@ -1,0 +1,1494 @@
+{
+  "cod": "200",
+  "message": 0,
+  "cnt": 40,
+  "list": [
+    {
+      "dt": 1777755600,
+      "main": {
+        "temp": 28.8,
+        "feels_like": 33.02,
+        "temp_min": 27.53,
+        "temp_max": 28.8,
+        "pressure": 1014,
+        "sea_level": 1014,
+        "grnd_level": 1016,
+        "humidity": 74,
+        "temp_kf": 1.27
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "nublado",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 75
+      },
+      "wind": {
+        "speed": 1.12,
+        "deg": 197,
+        "gust": 2.22
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-02 21:00:00"
+    },
+    {
+      "dt": 1777766400,
+      "main": {
+        "temp": 27.92,
+        "feels_like": 30.77,
+        "temp_min": 26.16,
+        "temp_max": 27.92,
+        "pressure": 1014,
+        "sea_level": 1014,
+        "grnd_level": 1017,
+        "humidity": 72,
+        "temp_kf": 1.76
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "nublado",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 83
+      },
+      "wind": {
+        "speed": 0.69,
+        "deg": 3,
+        "gust": 0.81
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-03 00:00:00"
+    },
+    {
+      "dt": 1777777200,
+      "main": {
+        "temp": 28.25,
+        "feels_like": 31.16,
+        "temp_min": 27.97,
+        "temp_max": 28.25,
+        "pressure": 1015,
+        "sea_level": 1015,
+        "grnd_level": 1017,
+        "humidity": 70,
+        "temp_kf": 0.28
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "nublado",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 92
+      },
+      "wind": {
+        "speed": 0.95,
+        "deg": 328,
+        "gust": 0.92
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-03 03:00:00"
+    },
+    {
+      "dt": 1777788000,
+      "main": {
+        "temp": 26.8,
+        "feels_like": 28.9,
+        "temp_min": 26.8,
+        "temp_max": 26.8,
+        "pressure": 1016,
+        "sea_level": 1016,
+        "grnd_level": 1017,
+        "humidity": 75,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "nublado",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 2.28,
+        "deg": 256,
+        "gust": 3.2
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-03 06:00:00"
+    },
+    {
+      "dt": 1777798800,
+      "main": {
+        "temp": 26.78,
+        "feels_like": 29.34,
+        "temp_min": 26.78,
+        "temp_max": 26.78,
+        "pressure": 1017,
+        "sea_level": 1017,
+        "grnd_level": 1018,
+        "humidity": 81,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "chuva leve",
+          "icon": "10n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 2.44,
+        "deg": 202,
+        "gust": 4.4
+      },
+      "visibility": 10000,
+      "pop": 0.9,
+      "rain": {
+        "3h": 1.27
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-03 09:00:00"
+    },
+    {
+      "dt": 1777809600,
+      "main": {
+        "temp": 23.88,
+        "feels_like": 24.67,
+        "temp_min": 23.88,
+        "temp_max": 23.88,
+        "pressure": 1020,
+        "sea_level": 1020,
+        "grnd_level": 1021,
+        "humidity": 90,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 501,
+          "main": "Rain",
+          "description": "chuva moderada",
+          "icon": "10d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 3.59,
+        "deg": 169,
+        "gust": 6.05
+      },
+      "visibility": 6852,
+      "pop": 1,
+      "rain": {
+        "3h": 4.92
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2026-05-03 12:00:00"
+    },
+    {
+      "dt": 1777820400,
+      "main": {
+        "temp": 21.95,
+        "feels_like": 22.45,
+        "temp_min": 21.95,
+        "temp_max": 21.95,
+        "pressure": 1020,
+        "sea_level": 1020,
+        "grnd_level": 1021,
+        "humidity": 86,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 501,
+          "main": "Rain",
+          "description": "chuva moderada",
+          "icon": "10d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 6.1,
+        "deg": 166,
+        "gust": 9.07
+      },
+      "visibility": 10000,
+      "pop": 1,
+      "rain": {
+        "3h": 5.85
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2026-05-03 15:00:00"
+    },
+    {
+      "dt": 1777831200,
+      "main": {
+        "temp": 20.58,
+        "feels_like": 21.04,
+        "temp_min": 20.58,
+        "temp_max": 20.58,
+        "pressure": 1020,
+        "sea_level": 1020,
+        "grnd_level": 1021,
+        "humidity": 90,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "chuva leve",
+          "icon": "10d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 4.02,
+        "deg": 190,
+        "gust": 6.08
+      },
+      "visibility": 9498,
+      "pop": 1,
+      "rain": {
+        "3h": 2.89
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2026-05-03 18:00:00"
+    },
+    {
+      "dt": 1777842000,
+      "main": {
+        "temp": 21.01,
+        "feels_like": 21.33,
+        "temp_min": 21.01,
+        "temp_max": 21.01,
+        "pressure": 1021,
+        "sea_level": 1021,
+        "grnd_level": 1022,
+        "humidity": 83,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "chuva leve",
+          "icon": "10n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.08,
+        "deg": 151,
+        "gust": 2.16
+      },
+      "visibility": 10000,
+      "pop": 1,
+      "rain": {
+        "3h": 1.12
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-03 21:00:00"
+    },
+    {
+      "dt": 1777852800,
+      "main": {
+        "temp": 21.14,
+        "feels_like": 21.42,
+        "temp_min": 21.14,
+        "temp_max": 21.14,
+        "pressure": 1022,
+        "sea_level": 1022,
+        "grnd_level": 1024,
+        "humidity": 81,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "chuva leve",
+          "icon": "10n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.57,
+        "deg": 128,
+        "gust": 2.09
+      },
+      "visibility": 10000,
+      "pop": 1,
+      "rain": {
+        "3h": 0.35
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-04 00:00:00"
+    },
+    {
+      "dt": 1777863600,
+      "main": {
+        "temp": 21.03,
+        "feels_like": 21.28,
+        "temp_min": 21.03,
+        "temp_max": 21.03,
+        "pressure": 1022,
+        "sea_level": 1022,
+        "grnd_level": 1023,
+        "humidity": 80,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "chuva leve",
+          "icon": "10n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.73,
+        "deg": 83,
+        "gust": 2.47
+      },
+      "visibility": 10000,
+      "pop": 0.36,
+      "rain": {
+        "3h": 0.21
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-04 03:00:00"
+    },
+    {
+      "dt": 1777874400,
+      "main": {
+        "temp": 20.67,
+        "feels_like": 20.99,
+        "temp_min": 20.67,
+        "temp_max": 20.67,
+        "pressure": 1020,
+        "sea_level": 1020,
+        "grnd_level": 1021,
+        "humidity": 84,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "chuva leve",
+          "icon": "10n"
+        }
+      ],
+      "clouds": {
+        "all": 98
+      },
+      "wind": {
+        "speed": 2.11,
+        "deg": 41,
+        "gust": 2.58
+      },
+      "visibility": 10000,
+      "pop": 0.2,
+      "rain": {
+        "3h": 0.11
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-04 06:00:00"
+    },
+    {
+      "dt": 1777885200,
+      "main": {
+        "temp": 20.06,
+        "feels_like": 20.42,
+        "temp_min": 20.06,
+        "temp_max": 20.06,
+        "pressure": 1021,
+        "sea_level": 1021,
+        "grnd_level": 1022,
+        "humidity": 88,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "chuva leve",
+          "icon": "10n"
+        }
+      ],
+      "clouds": {
+        "all": 95
+      },
+      "wind": {
+        "speed": 1.53,
+        "deg": 24,
+        "gust": 1.76
+      },
+      "visibility": 10000,
+      "pop": 0.2,
+      "rain": {
+        "3h": 0.12
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-04 09:00:00"
+    },
+    {
+      "dt": 1777896000,
+      "main": {
+        "temp": 21.92,
+        "feels_like": 22.15,
+        "temp_min": 21.92,
+        "temp_max": 21.92,
+        "pressure": 1022,
+        "sea_level": 1022,
+        "grnd_level": 1023,
+        "humidity": 76,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "nublado",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 57
+      },
+      "wind": {
+        "speed": 2.28,
+        "deg": 66,
+        "gust": 4.51
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2026-05-04 12:00:00"
+    },
+    {
+      "dt": 1777906800,
+      "main": {
+        "temp": 24.17,
+        "feels_like": 24.34,
+        "temp_min": 24.17,
+        "temp_max": 24.17,
+        "pressure": 1021,
+        "sea_level": 1021,
+        "grnd_level": 1022,
+        "humidity": 65,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "algumas nuvens",
+          "icon": "02d"
+        }
+      ],
+      "clouds": {
+        "all": 13
+      },
+      "wind": {
+        "speed": 3.93,
+        "deg": 103,
+        "gust": 3.92
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2026-05-04 15:00:00"
+    },
+    {
+      "dt": 1777917600,
+      "main": {
+        "temp": 23.85,
+        "feels_like": 24.07,
+        "temp_min": 23.85,
+        "temp_max": 23.85,
+        "pressure": 1019,
+        "sea_level": 1019,
+        "grnd_level": 1020,
+        "humidity": 68,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "nuvens dispersas",
+          "icon": "03d"
+        }
+      ],
+      "clouds": {
+        "all": 43
+      },
+      "wind": {
+        "speed": 4.71,
+        "deg": 91,
+        "gust": 5.69
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2026-05-04 18:00:00"
+    },
+    {
+      "dt": 1777928400,
+      "main": {
+        "temp": 22.96,
+        "feels_like": 23.14,
+        "temp_min": 22.96,
+        "temp_max": 22.96,
+        "pressure": 1020,
+        "sea_level": 1020,
+        "grnd_level": 1021,
+        "humidity": 70,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "nublado",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 83
+      },
+      "wind": {
+        "speed": 4.14,
+        "deg": 84,
+        "gust": 6.63
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-04 21:00:00"
+    },
+    {
+      "dt": 1777939200,
+      "main": {
+        "temp": 21.49,
+        "feels_like": 21.65,
+        "temp_min": 21.49,
+        "temp_max": 21.49,
+        "pressure": 1020,
+        "sea_level": 1020,
+        "grnd_level": 1022,
+        "humidity": 75,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "nublado",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 63
+      },
+      "wind": {
+        "speed": 3.05,
+        "deg": 62,
+        "gust": 5.51
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-05 00:00:00"
+    },
+    {
+      "dt": 1777950000,
+      "main": {
+        "temp": 20.84,
+        "feels_like": 21.02,
+        "temp_min": 20.84,
+        "temp_max": 20.84,
+        "pressure": 1020,
+        "sea_level": 1020,
+        "grnd_level": 1021,
+        "humidity": 78,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "nuvens dispersas",
+          "icon": "03n"
+        }
+      ],
+      "clouds": {
+        "all": 39
+      },
+      "wind": {
+        "speed": 1.15,
+        "deg": 65,
+        "gust": 1.26
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-05 03:00:00"
+    },
+    {
+      "dt": 1777960800,
+      "main": {
+        "temp": 20.22,
+        "feels_like": 20.44,
+        "temp_min": 20.22,
+        "temp_max": 20.22,
+        "pressure": 1019,
+        "sea_level": 1019,
+        "grnd_level": 1020,
+        "humidity": 82,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "algumas nuvens",
+          "icon": "02n"
+        }
+      ],
+      "clouds": {
+        "all": 19
+      },
+      "wind": {
+        "speed": 1.52,
+        "deg": 1,
+        "gust": 1.66
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-05 06:00:00"
+    },
+    {
+      "dt": 1777971600,
+      "main": {
+        "temp": 19.96,
+        "feels_like": 20.15,
+        "temp_min": 19.96,
+        "temp_max": 19.96,
+        "pressure": 1019,
+        "sea_level": 1019,
+        "grnd_level": 1020,
+        "humidity": 82,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "céu limpo",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 1.96,
+        "deg": 9,
+        "gust": 2.34
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-05 09:00:00"
+    },
+    {
+      "dt": 1777982400,
+      "main": {
+        "temp": 23.54,
+        "feels_like": 23.73,
+        "temp_min": 23.54,
+        "temp_max": 23.54,
+        "pressure": 1020,
+        "sea_level": 1020,
+        "grnd_level": 1022,
+        "humidity": 68,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "céu limpo",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 1.71,
+        "deg": 2,
+        "gust": 2.61
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2026-05-05 12:00:00"
+    },
+    {
+      "dt": 1777993200,
+      "main": {
+        "temp": 27.94,
+        "feels_like": 29.05,
+        "temp_min": 27.94,
+        "temp_max": 27.94,
+        "pressure": 1019,
+        "sea_level": 1019,
+        "grnd_level": 1020,
+        "humidity": 57,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "céu limpo",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 0.86,
+        "deg": 98,
+        "gust": 1.42
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2026-05-05 15:00:00"
+    },
+    {
+      "dt": 1778004000,
+      "main": {
+        "temp": 27.49,
+        "feels_like": 28.91,
+        "temp_min": 27.49,
+        "temp_max": 27.49,
+        "pressure": 1017,
+        "sea_level": 1017,
+        "grnd_level": 1018,
+        "humidity": 62,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "céu limpo",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 3.19,
+        "deg": 118,
+        "gust": 2.36
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2026-05-05 18:00:00"
+    },
+    {
+      "dt": 1778014800,
+      "main": {
+        "temp": 24.53,
+        "feels_like": 25.08,
+        "temp_min": 24.53,
+        "temp_max": 24.53,
+        "pressure": 1018,
+        "sea_level": 1018,
+        "grnd_level": 1019,
+        "humidity": 78,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "céu limpo",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 2
+      },
+      "wind": {
+        "speed": 2.2,
+        "deg": 111,
+        "gust": 2.98
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-05 21:00:00"
+    },
+    {
+      "dt": 1778025600,
+      "main": {
+        "temp": 24.06,
+        "feels_like": 24.61,
+        "temp_min": 24.06,
+        "temp_max": 24.06,
+        "pressure": 1019,
+        "sea_level": 1019,
+        "grnd_level": 1020,
+        "humidity": 80,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "nuvens dispersas",
+          "icon": "03n"
+        }
+      ],
+      "clouds": {
+        "all": 39
+      },
+      "wind": {
+        "speed": 1.06,
+        "deg": 62,
+        "gust": 1.3
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-06 00:00:00"
+    },
+    {
+      "dt": 1778036400,
+      "main": {
+        "temp": 23.76,
+        "feels_like": 24.2,
+        "temp_min": 23.76,
+        "temp_max": 23.76,
+        "pressure": 1019,
+        "sea_level": 1019,
+        "grnd_level": 1020,
+        "humidity": 77,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "nublado",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.53,
+        "deg": 347,
+        "gust": 1.5
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-06 03:00:00"
+    },
+    {
+      "dt": 1778047200,
+      "main": {
+        "temp": 22.81,
+        "feels_like": 23.24,
+        "temp_min": 22.81,
+        "temp_max": 22.81,
+        "pressure": 1018,
+        "sea_level": 1018,
+        "grnd_level": 1019,
+        "humidity": 80,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "nublado",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 78
+      },
+      "wind": {
+        "speed": 1.58,
+        "deg": 5,
+        "gust": 1.69
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-06 06:00:00"
+    },
+    {
+      "dt": 1778058000,
+      "main": {
+        "temp": 22.11,
+        "feels_like": 22.47,
+        "temp_min": 22.11,
+        "temp_max": 22.11,
+        "pressure": 1018,
+        "sea_level": 1018,
+        "grnd_level": 1020,
+        "humidity": 80,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "céu limpo",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 7
+      },
+      "wind": {
+        "speed": 1.83,
+        "deg": 2,
+        "gust": 2.09
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-06 09:00:00"
+    },
+    {
+      "dt": 1778068800,
+      "main": {
+        "temp": 25.38,
+        "feels_like": 25.72,
+        "temp_min": 25.38,
+        "temp_max": 25.38,
+        "pressure": 1020,
+        "sea_level": 1020,
+        "grnd_level": 1021,
+        "humidity": 67,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "céu limpo",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 3
+      },
+      "wind": {
+        "speed": 1.37,
+        "deg": 346,
+        "gust": 2.09
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2026-05-06 12:00:00"
+    },
+    {
+      "dt": 1778079600,
+      "main": {
+        "temp": 28.98,
+        "feels_like": 30.14,
+        "temp_min": 28.98,
+        "temp_max": 28.98,
+        "pressure": 1018,
+        "sea_level": 1018,
+        "grnd_level": 1019,
+        "humidity": 54,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "céu limpo",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 1.23,
+        "deg": 144,
+        "gust": 0.99
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2026-05-06 15:00:00"
+    },
+    {
+      "dt": 1778090400,
+      "main": {
+        "temp": 28.31,
+        "feels_like": 29.68,
+        "temp_min": 28.31,
+        "temp_max": 28.31,
+        "pressure": 1016,
+        "sea_level": 1016,
+        "grnd_level": 1017,
+        "humidity": 58,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "céu limpo",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 1
+      },
+      "wind": {
+        "speed": 2.95,
+        "deg": 129,
+        "gust": 2.43
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2026-05-06 18:00:00"
+    },
+    {
+      "dt": 1778101200,
+      "main": {
+        "temp": 25.07,
+        "feels_like": 25.67,
+        "temp_min": 25.07,
+        "temp_max": 25.07,
+        "pressure": 1016,
+        "sea_level": 1016,
+        "grnd_level": 1017,
+        "humidity": 78,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "nuvens dispersas",
+          "icon": "03n"
+        }
+      ],
+      "clouds": {
+        "all": 43
+      },
+      "wind": {
+        "speed": 1.87,
+        "deg": 100,
+        "gust": 2.14
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-06 21:00:00"
+    },
+    {
+      "dt": 1778112000,
+      "main": {
+        "temp": 24.48,
+        "feels_like": 25.1,
+        "temp_min": 24.48,
+        "temp_max": 24.48,
+        "pressure": 1017,
+        "sea_level": 1017,
+        "grnd_level": 1018,
+        "humidity": 81,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "chuva leve",
+          "icon": "10n"
+        }
+      ],
+      "clouds": {
+        "all": 22
+      },
+      "wind": {
+        "speed": 1.75,
+        "deg": 42,
+        "gust": 1.72
+      },
+      "visibility": 10000,
+      "pop": 0.2,
+      "rain": {
+        "3h": 0.13
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-07 00:00:00"
+    },
+    {
+      "dt": 1778122800,
+      "main": {
+        "temp": 23.49,
+        "feels_like": 24.09,
+        "temp_min": 23.49,
+        "temp_max": 23.49,
+        "pressure": 1017,
+        "sea_level": 1017,
+        "grnd_level": 1018,
+        "humidity": 84,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "chuva leve",
+          "icon": "10n"
+        }
+      ],
+      "clouds": {
+        "all": 2
+      },
+      "wind": {
+        "speed": 1.43,
+        "deg": 357,
+        "gust": 1.19
+      },
+      "visibility": 10000,
+      "pop": 0.52,
+      "rain": {
+        "3h": 0.29
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-07 03:00:00"
+    },
+    {
+      "dt": 1778133600,
+      "main": {
+        "temp": 22.53,
+        "feels_like": 23.08,
+        "temp_min": 22.53,
+        "temp_max": 22.53,
+        "pressure": 1016,
+        "sea_level": 1016,
+        "grnd_level": 1017,
+        "humidity": 86,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "céu limpo",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 1
+      },
+      "wind": {
+        "speed": 1.83,
+        "deg": 19,
+        "gust": 2.25
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-07 06:00:00"
+    },
+    {
+      "dt": 1778144400,
+      "main": {
+        "temp": 21.79,
+        "feels_like": 22.22,
+        "temp_min": 21.79,
+        "temp_max": 21.79,
+        "pressure": 1016,
+        "sea_level": 1016,
+        "grnd_level": 1018,
+        "humidity": 84,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "céu limpo",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 2.29,
+        "deg": 8,
+        "gust": 2.78
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2026-05-07 09:00:00"
+    },
+    {
+      "dt": 1778155200,
+      "main": {
+        "temp": 25,
+        "feels_like": 25.41,
+        "temp_min": 25,
+        "temp_max": 25,
+        "pressure": 1017,
+        "sea_level": 1017,
+        "grnd_level": 1019,
+        "humidity": 71,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "céu limpo",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 1.61,
+        "deg": 15,
+        "gust": 2.36
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2026-05-07 12:00:00"
+    },
+    {
+      "dt": 1778166000,
+      "main": {
+        "temp": 29.2,
+        "feels_like": 30.46,
+        "temp_min": 29.2,
+        "temp_max": 29.2,
+        "pressure": 1015,
+        "sea_level": 1015,
+        "grnd_level": 1017,
+        "humidity": 54,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "céu limpo",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 1
+      },
+      "wind": {
+        "speed": 1.34,
+        "deg": 108,
+        "gust": 1.93
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2026-05-07 15:00:00"
+    },
+    {
+      "dt": 1778176800,
+      "main": {
+        "temp": 28.95,
+        "feels_like": 30.37,
+        "temp_min": 28.95,
+        "temp_max": 28.95,
+        "pressure": 1013,
+        "sea_level": 1013,
+        "grnd_level": 1015,
+        "humidity": 56,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "céu limpo",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 7
+      },
+      "wind": {
+        "speed": 3.03,
+        "deg": 137,
+        "gust": 1.68
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2026-05-07 18:00:00"
+    }
+  ],
+  "city": {
+    "id": 3451190,
+    "name": "Rio de Janeiro",
+    "coord": {
+      "lat": -22.9028,
+      "lon": -43.2075
+    },
+    "country": "BR",
+    "population": 6023699,
+    "timezone": -10800,
+    "sunrise": 1777713161,
+    "sunset": 1777753607
+  },
+  "_collected_at": "2026-05-02T19:44:54.813607+00:00"
+}
