@@ -1,0 +1,6 @@
+{"timestamp":"2026-03-16T22:10:59.841258Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/weather_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-16T22:11:00.149811Z","level":"info","event":"→ Conectando em: postgresql+psycopg2://victor:victor@host.docker.internal:5432/projeto_etl","logger":"root","filename":"load_data.py","lineno":24}
+{"timestamp":"2026-03-16T22:12:23.714966Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/weather_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-16T22:12:23.790129Z","level":"info","event":"→ Conectando em: postgresql+psycopg2://victor:victor@host.docker.internal:5432/projeto_etl","logger":"root","filename":"load_data.py","lineno":24}
+{"timestamp":"2026-03-16T22:12:55.691601Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/weather_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-16T22:12:55.740147Z","level":"info","event":"→ Conectando em: postgresql+psycopg2://victor:victor@host.docker.internal:5432/projeto_etl","logger":"root","filename":"load_data.py","lineno":24}

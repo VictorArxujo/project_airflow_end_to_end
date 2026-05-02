@@ -1,0 +1,14 @@
+{"timestamp":"2026-03-17T23:57:59.968161Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-17T23:57:59.968802Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/weather_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-17T23:57:59.986186Z","level":"info","event":"→ Conectando em: postgresql+psycopg2://victor:victor@postgres_etl:5432/projeto_etl","logger":"root","filename":"load_data.py","lineno":23}
+{"timestamp":"2026-03-17T23:58:00.019233Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-17T23:58:00.019407Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-17T23:58:00.019515Z","level":"info","event":"Current task name:load","logger":"task.stdout"}
+{"timestamp":"2026-03-17T23:58:00.019572Z","level":"info","event":"Dag name:weather_dag","logger":"task.stdout"}
+{"timestamp":"2026-03-17T23:58:00.074900Z","level":"info","event":"entrei aqui","logger":"task.stdout"}
+{"timestamp":"2026-03-17T23:58:00.174260Z","level":"info","event":"✅ Dados carregados com sucesso!\n","logger":"root","filename":"load_data.py","lineno":38}
+{"timestamp":"2026-03-17T23:58:00.180435Z","level":"info","event":"Total de registros na tabela: 5\n","logger":"root","filename":"load_data.py","lineno":41}
+{"timestamp":"2026-03-17T23:58:00.181022Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-03-17T23:58:00.210180Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-17T23:58:00.210319Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-17T23:58:00.210479Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): load>","logger":"task.stdout"}
