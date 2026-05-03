@@ -1,6 +1,6 @@
 import json
 import logging
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 from core.settings import settings
@@ -35,7 +35,8 @@ def save_raw(domain: str, city: str, data: dict, collected_at: datetime | None =
         Path do arquivo salvo
     """
     if collected_at is None:
-        collected_at = datetime.now(timezone.utc)
+        fuso_br = timezone(timedelta(hours=-3))
+        collected_at = datetime.now(fuso_br)
 
     path = _build_path(domain, city, collected_at)
     path.parent.mkdir(parents=True, exist_ok=True)

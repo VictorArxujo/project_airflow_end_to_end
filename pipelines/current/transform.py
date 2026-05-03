@@ -6,27 +6,25 @@ from core.lake import load_raw
 logger = logging.getLogger(__name__)
 
 
-def transform_current(city: str, collected_at: datetime) -> list:
+def transform_current(city: str, collected_at: str) -> list[dict]:
     """
-    Carrega o JSON bruto do data lake, limpa e normaliza os dados,
-    retornando uma lista de dicionários pronta para inserção no banco e XCom.
+    Carrega o JSON bruto, normaliza e retorna list[dict] — serializável pelo XCom.
 
-    Args:
-        city:         nome da cidade
-        collected_at: datetime da coleta (vem do extract)
-
-    Returns:
-        Lista com um dicionário contendo as colunas mapeadas para WeatherCurrent
+    Recebe:
+        collected_at: string ISO (vem do extract via XCom)
+    Retorna:
+        list[dict] — JSON-safe, passa pelo XCom sem problema
     """
     logger.info(f"[current/transform] Transformando dado de {city}")
 
-    # 1. carrega o JSON bruto que o extract salvou
-    raw = load_raw(domain="current", city=city, collected_at=collected_at)
+    # Converte string ISO de volta para datetime para buscar o arquivo no lake
+    collected_at_dt = datetime.fromisoformat(collected_at)
 
-    # 2. o campo weather é uma lista — sempre pegamos o primeiro elemento
+    raw = load_raw(domain="current", city=city, collected_at=collected_at_dt)
+
+    # weather é sempre uma lista — pega o primeiro elemento
     weather_info = raw.get("weather", [{}])[0]
 
-    # 3. monta o dicionário já com os campos renomeados e limpos
     record = {
         "city_name":    raw.get("name"),
         "country":      raw.get("sys", {}).get("country"),
@@ -45,21 +43,18 @@ def transform_current(city: str, collected_at: datetime) -> list:
         "wind_gust":    raw.get("wind", {}).get("gust"),
         "weather_main": weather_info.get("main"),
         "weather_desc": weather_info.get("description"),
-        
-        # Converte para strings ISO para não dar erro de JSON no Airflow
+        # Timestamps: Unix → string ISO (nunca datetime — não é JSON-safe)
         "sunrise":      _unix_to_iso(raw.get("sys", {}).get("sunrise")),
         "sunset":       _unix_to_iso(raw.get("sys", {}).get("sunset")),
-        "collected_at": collected_at.isoformat() if isinstance(collected_at, datetime) else collected_at,
+        "collected_at": collected_at,  # já é string, repassa direto
     }
 
-    logger.info(f"[current/transform] Concluído — 1 linha pronta para {city}")
-    
-    # Retorna uma LISTA com o dicionário dentro
-    return [record]
+    logger.info(f"[current/transform] Concluído para {city}")
+    return [record]  # sempre list[dict] — mesmo que seja um registro só
 
 
 def _unix_to_iso(unix_ts: int | None) -> str | None:
-    """Converte timestamp Unix para string ISO segura para JSON/XCom."""
+    """Unix timestamp → string ISO UTC. None → None."""
     if unix_ts is None:
         return None
     return datetime.fromtimestamp(unix_ts, tz=timezone.utc).isoformat()

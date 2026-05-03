@@ -1,38 +1,48 @@
-import pandas as pd
-import json
 import logging
-from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
+
+from core.lake import load_raw
 
 logger = logging.getLogger(__name__)
 
-def transform_forecast(city: str = "Londrina", collected_at: str = None) -> pd.DataFrame:
-    city_slug = city.lower().replace(" ", "_")
-    date_str = datetime.now().strftime("%Y-%m-%d")
-    path = sorted(Path(f"data/raw/forecast/{city_slug}/{date_str}").glob("*.json"))[-1]
 
-    with open(path) as f:
-        data = json.load(f)
+def transform_forecast(city: str, collected_at: str) -> list[dict]:
+    """
+    Retorna list[dict] — uma entrada por step de 3h (40 no total).
+    """
+    logger.info(f"[forecast/transform] Transformando dado de {city}")
 
-    rows = []
-    for item in data["list"]:
-        rows.append({
-            "city_name": data["city"]["name"],
-            "country": data["city"]["country"],
-            "latitude": data["city"]["coord"]["lat"],
-            "longitude": data["city"]["coord"]["lon"],
-            "forecast_time": item["dt_txt"],
-            "temperature": item["main"]["temp"],
-            "feels_like": item["main"]["feels_like"],
-            "humidity": item["main"]["humidity"],
-            "pressure": item["main"]["pressure"],
-            "weather_main": item["weather"][0]["main"],
-            "weather_desc": item["weather"][0]["description"],
-            "wind_speed": item["wind"]["speed"],
-            "pop": item.get("pop", 0),
+    collected_at_dt = datetime.fromisoformat(collected_at)
+    raw = load_raw(domain="forecast", city=city, collected_at=collected_at_dt)
+
+    city_info = raw.get("city", {})
+    records = []
+
+    for item in raw.get("list", []):
+        records.append({
+            "city_name":    city_info.get("name"),
+            "country":      city_info.get("country"),
+            "latitude":     city_info.get("coord", {}).get("lat"),
+            "longitude":    city_info.get("coord", {}).get("lon"),
+            "forecast_time": item.get("dt_txt"),          # string "2026-05-03 15:00:00"
+            "temperature":  item.get("main", {}).get("temp"),
+            "feels_like":   item.get("main", {}).get("feels_like"),
+            "temp_min":     item.get("main", {}).get("temp_min"),
+            "temp_max":     item.get("main", {}).get("temp_max"),
+            "pressure":     item.get("main", {}).get("pressure"),
+            "humidity":     item.get("main", {}).get("humidity"),
+            "clouds":       item.get("clouds", {}).get("all"),
+            "wind_speed":   item.get("wind", {}).get("speed"),
+            "wind_deg":     item.get("wind", {}).get("deg"),
+            "wind_gust":    item.get("wind", {}).get("gust"),
+            "weather_main": item.get("weather", [{}])[0].get("main"),
+            "weather_desc": item.get("weather", [{}])[0].get("description"),
+            "pop":          item.get("pop", 0),
+            # rain só existe quando chove — .get() retorna None se ausente
+            "rain_3h":      item.get("rain", {}).get("3h"),
+            "visibility":   item.get("visibility"),
             "collected_at": collected_at,
         })
 
-    df = pd.DataFrame(rows)
-    logger.info(f"[forecast/transform] {len(df)} linhas geradas")
-    return df
+    logger.info(f"[forecast/transform] {len(records)} steps gerados para {city}")
+    return records
